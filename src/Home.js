@@ -1,29 +1,215 @@
-import "../node_modules/bootstrap/dist/css/bootstrap.css";
 
+
+import Nav from "./Navbar";
+import "./OnlyCss.css";
 function HomePage() {
 
 
     return ( 
 <div>
-<ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-  <li class="nav-item" role="presentation">
-    <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Home</button>
-  </li>
-  <li class="nav-item" role="presentation">
-    <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Profile</button>
-  </li>
-  <li class="nav-item" role="presentation">
-    <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Contact</button>
-  </li>
-</ul>
-<div class="tab-content" id="pills-tabContent">
-  <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">...</div>
-  <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">...</div>
-  <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">...</div>
-</div>
+<Nav/>
+{/* For School */}
+
+<div class="card-group">
+
+{/* APS School & College */}
+
+  <div class="card">
+    <img src="./Aps.png" class="card-img-top" alt="Army Public School & College"/>
+    <div class="card-body">
+      <h5 class="card-title">Army Public School & College (APS)</h5>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">Apply</small>
+    </div>
+  </div>
+
+{/* Burn Hall School */}
+
+  <div class="card">
+    <img src="./Burn Hall.jpg" class="card-img-top" alt="Burn Hall School & College"/>
+    <div class="card-body">
+      <h5 class="card-title">Burn Hall School & College</h5>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">Apply</small>
+    </div>
+  </div>
+
+{/* Modernage School & College */}
+
+  <div class="card">
+    <img src="Mardenage.jpg" class="card-img-top" alt="Modernage School & College"/>
+    <div class="card-body">
+      <h5 class="card-title">Modenage School & College</h5>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">Apply</small>
+    </div>
+  </div>
+
+{/* PIPS School & College */}
+
+  <div class="card">
+    <img src="PIPS atd.jpg" class="card-img-top" alt="PIPS Shool & College"/>
+    <div class="card-body">
+      <h5 class="card-title">PIPS School & College</h5>
+      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">Apply</small>
+    </div>
+  </div>
+
+{/* Tameer-i-Wattan School & College */}
+
+  <div class="card">
+    <img src="Tameer-i-Wattan.jpg" class="card-img-top" alt="Tameer-i-Wattan School & College"/>
+    <div class="card-body">
+      <h5 class="card-title">Tameer-i-Wattan School & College</h5>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">Apply</small>
+    </div>
+  </div>
 </div>
 
-     );
+{/* For Colleges */}
+
+<div class="card-group">
+
+{/* The City School */}
+
+  <div class="card">
+    <img src="City School.png" class="card-img-top" alt="The City School"/>
+    <div class="card-body">
+      <h5 class="card-title">The City School</h5>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">Apply</small>
+    </div>
+  </div>
+
+{/* Beaconhouse School & College */}
+
+  <div class="card">
+    <img src="Beaconhouse.jpg" class="card-img-top" alt="Beaconhouse School & College"/>
+    <div class="card-body">
+      <h5 class="card-title">Beaconhouse School & College</h5>
+      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">Apply</small>
+    </div>
+  </div>
+
+{/* Pakistan Public School & College */}
+
+  <div class="card">
+    <img src="Pakistan.jpg" class="card-img-top" alt="Pakistan Public School & College"/>
+    <div class="card-body">
+      <h5 class="card-title">Pakistan Public School & College</h5>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">Apply</small>
+    </div>
+  </div>
+
+{/* Abbottabad Public School & College */}
+
+  <div class="card">
+    <img src="Abbottabad.jpg" class="card-img-top" alt="Abbottabad Public School & College"/>
+    <div class="card-body">
+      <h5 class="card-title">Abbottabad Public School & College(APS)</h5>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">Apply</small>
+    </div>
+  </div>
+
+
+
+  <div class="card">
+    <img src="./Aps.png" class="card-img-top" alt="..."/>
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">Apply</small>
+    </div>
+  </div>
+
+</div>
+
+
+{/* For Acadmy */}
+
+<div class="card-group">
+  <div class="card">
+    <img src="./Aps.png" class="card-img-top" alt="..."/>
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">Apply</small>
+    </div>
+  </div>
+  <div class="card">
+    <img src="./Aps.png" class="card-img-top" alt="..."/>
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">Apply</small>
+    </div>
+  </div>
+  <div class="card">
+    <img src="./Aps.png" class="card-img-top" alt="..."/>
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">Apply</small>
+    </div>
+  </div>
+  <div class="card">
+    <img src="./Aps.png" class="card-img-top" alt="..."/>
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">Apply</small>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="./Aps.png" class="card-img-top" alt="..."/>
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">Apply</small>
+    </div>
+  </div>
+</div>
+
+
+</div>
+
+    );
 }
 
 export default HomePage;
