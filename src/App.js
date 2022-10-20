@@ -14,7 +14,8 @@ function App() {
     <Routes>
 
     <Route path="/Home" element={<HomePage/>}/>
-    <Route path="/profile" element={<Profile/>}/>
+
+    <Route path="/Profile" element={<Profile/>}/>
 
 
 

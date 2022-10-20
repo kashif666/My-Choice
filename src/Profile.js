@@ -2,10 +2,12 @@ import { Link } from "react-router-dom";
 
 function Profile() {
     return ( 
-        <Link to={Profile}>
+        <div>
+       
         <h1>This is Profile page</h1>
 
-        </Link>
+        
+        </div>
      );
 }
 
