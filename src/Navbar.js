@@ -1,43 +1,52 @@
-import { Link } from "react-router-dom";
+ import { Link } from "react-router-dom";
 function Nav() {
 
  const mystyle =
 {
   backgroundColor: "lightBlue",
+  width:"100vw",
+  height:"7vw"
+
  };
 
     return ( 
     <div style={mystyle}>
-<ul class="nav nav-pills mb-3" id="pills-tab" role="tablist" style={{position: 'fixed',top:'0vw'}} >
-  <li class="nav-item" role="presentation">
-    <button style={{marginTop:'12px'}}
-    class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Home</button>
-  </li>
-  
-  <Link to='/profile'>
-    <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Profile</button>
-    </Link>
-  <li class="nav-item" role="presentation">
-    <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Contact</button>
-  </li>
-</ul>
+<Link to="/">
+<button style={{marginTop:'60px',marginLeft:'8px'}} type="button" class="btn btn-outline-success">
+ Home
+</button></Link>
 
-<div class="tab-content" id="pills-tabContent">
-  <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">...</div>
-  <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">...</div>
-  <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">...</div>
 
-  <form class="d-flex" style={{width:'40vw',marginLeft:'30vw'}}>
+  <form class="d-flex" style={{width:'40vw',marginLeft:'25vw',marginTop:'-35px',}}>
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
         <button class="btn btn-outline-success" type="submit">Search</button>
       </form>
 
-      </div>
+     
+
+<div class="d-grid gap-2 d-md-flex justify-content-md-end" style={{marginTop:'-2.5vw',marginRight:'4vw'}}>
+
+<Link to="/login">
+  <button class="btn btn-outline-success" type="button"> Login </button>
+  </Link>
+
+<Link to="/AddInstitute">
+  <button  class="btn btn-outline-success" type="button">Add institute</button>
+  </Link>
+
+<Link to={"/Help"}>
+  <button  class="btn btn-outline-success" type="button">Help</button>
+  </Link>
+
+
+</div>
 
       </div>
 
+      
 
-     );
+
+);
 }
 
 export default Nav;

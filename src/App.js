@@ -1,31 +1,30 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
 import HomePage from "./Home";
-import Profile from "./Profile";
 import Nav from "./Navbar";
+import Login from "./login";
+import SignUp from "./signUp";
+import { Routes, Route } from "react-router-dom";
+import AddInstitute from "./AddInstitute";
+import Help from "./Help";
 
 
 function App() {
   return (
 
-    <div>
-    <BrowserRouter>
-    <HomePage/>
-    <Profile/>
+<div>
+    <Nav/>
+    
     <Routes>
 
-    <Route path="/Home" element={<HomePage/>}/>
-
-    <Route path="/Profile" element={<Profile/>}/>
-
-
-
+      <Route path="/" element={<HomePage/>}/>;
+      <Route path="/login" element={<Login/>}/>;
+      <Route path="/signUp" element={<SignUp/>}/>;
+      <Route path="/AddInstitute" element={<AddInstitute/>}/>;
+      <Route path="/Help" element={<Help/>}/>;
     </Routes>
-    </BrowserRouter>
-
-    
-
     </div>
+
   );
+  
 }
 
 export default App;
