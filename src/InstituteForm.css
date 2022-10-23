@@ -1,0 +1,105 @@
+#Div_A
+{
+    
+    width: 950px;
+    height: 1000px;
+    border:2px solid black;
+    margin-left: 160px;
+    background-color: white ;
+    border-radius: 14px;
+    margin-top: 70px;
+    
+
+}
+
+body
+{
+    
+    background-color: black;
+}
+
+#form{
+
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+h1{
+    margin-left: 260px;
+    margin-top: 70px;
+}
+
+h4{
+    margin-left: 340px;
+}
+.input
+{
+   
+    height: 30px;
+    width: 280px;
+
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-color: grey ;
+}
+.label:after{
+    content:"*" ;
+    color:red   
+    }
+
+.tr{
+    padding-bottom: 0.5em;
+}
+
+#select
+{
+    width: 290px;
+    height: 39px;
+    border-radius: 12px;
+   
+    font-size: 16px;
+    font-style: oblique;
+
+}
+
+.input:hover
+{
+    height: 30px;
+    width: 280px;
+
+    border-top: none;
+    border-left: none;
+    border-right: none;
+
+    border-bottom-color: green;
+}
+
+#div_B
+{
+    width: 660px;
+    height: 220px;
+    margin-left: 240px;
+}
+
+
+#btn
+{
+    width: 170px;
+    height: 40px;
+    background-color: rgb(78, 173, 78);
+    border-radius: 5px;
+    color: aliceblue;
+    font-style: normal;
+    font-weight :900;
+    border-color: rgb(78, 173, 78);
+}
+
+.redColor
+{
+    color: red;
+    text-decoration: none;
+    
+}
+
+

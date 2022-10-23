@@ -2,8 +2,8 @@ function SignUp() {
     return ( 
 
 <div>
-<div style={{width:'40vw',margin:"auto",marginTop:'4vw',backgroundColor:"lightblue"}}>
-<form class="row g-3">
+<div style={{width:'45vw',height:'40vw', margin:"auto",marginTop:'4vw',backgroundColor:"lightblue",border:'2px solid black'}}>
+<form class="row g-3" style={{marginTop:'4vw',height:'35vw'}}>
   <div class="col-md-6">
     <label for="inputEmail4" class="form-label">Email</label>
     <input type="email" class="form-control" id="inputEmail4"/>
@@ -27,8 +27,11 @@ function SignUp() {
   <div class="col-md-4">
     <label for="inputState" class="form-label">State</label>
     <select id="inputState" class="form-select">
-      <option selected>Choose...</option>
-      <option>...</option>
+      <option selected>KPK</option>
+      <option>Punjab</option>
+      <option>Sindh</option>
+      <option>Balochistan</option>
+      <option>Gilgit</option>
     </select>
   </div>
   <div class="col-md-2">
@@ -43,8 +46,8 @@ function SignUp() {
       </label>
     </div>
   </div>
-  <div class="col-12">
-    <button type="submit" class="btn btn-primary">Sign in</button>
+  <div class="col-4">
+    <button style={{margin:"auto"}} type="submit" class="btn btn-success">Sign in</button>
   </div>
 </form>
 
