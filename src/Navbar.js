@@ -12,12 +12,12 @@ function Nav() {
     return ( 
     <div style={mystyle}>
 <Link to="/">
-<button style={{marginTop:'60px',marginLeft:'8px'}} type="button" class="btn btn-outline-success">
+<button style={{marginTop:'2vw',marginLeft:'2vw'}} type="button" class="btn btn-outline-success">
  Home
 </button></Link>
 
 
-  <form class="d-flex" style={{width:'40vw',marginLeft:'25vw',marginTop:'-35px',}}>
+  <form class="d-flex" style={{width:'40vw',marginLeft:'25vw',marginTop:'-2vw'}}>
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
         <button class="btn btn-outline-success" type="submit">Search</button>
       </form>
