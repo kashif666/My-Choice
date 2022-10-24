@@ -1,10 +1,12 @@
+import { Link } from "react-router-dom";
+
 function Armyschool() {
     return ( 
 
         <div>
 
 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner" style={{width:'100vw',height:'40vw',marginTop:'2vw'}}>
+  <div class="carousel-inner" style={{width:'100vw',height:'55vw',marginTop:'2vw'}}>
 
     <div class="carousel-item active">
       <img src="Army1.jpg" class="d-block w-100" alt=""/>
@@ -42,12 +44,18 @@ function Armyschool() {
 
 <br />
 
-<div style={{border:'2px solid black',width:'20vw',height:'30vw',marginLeft:'77vw'}}>
+<div style={{border:'2px solid black',width:'20vw',height:'20vw',marginLeft:'77vw'}}>
 <h3>
     Contact Info
 </h3>
+<Link to ="/email">abbottabadapsacs@gmail.com</Link>
+<br />
+<br />
+<Link to="/contact">tel:0992330174, 0992333150, 0992340430</Link>
 
-
+<br />
+<br />
+<Link to ="/location">https://www.google.com/maps/search <br />/Murree%20Rd,%20Abbottabad,%20<br />Khyber%20Pakhtunkhwa,%20Pakistan</Link>
 </div>
 
 </div>

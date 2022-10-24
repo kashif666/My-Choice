@@ -34,7 +34,9 @@ function HomePage() {
 
   <div class="col">
     <div class="card h-100">
+      <Link to="/BurnHall">
       <img src="Burn Hall.jpg" class="card-img-top" alt="Burn Hall School & College"/>
+      </Link>
       <div class="card-body">
         <h5 class="card-title">Burn Hall School & College</h5>
         <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
@@ -44,6 +46,9 @@ function HomePage() {
       </div>
     </div>
   </div>
+
+{/* Modernage school */}
+
   <div class="col">
     <div class="card h-100">
       <img src="Modernage.jpg" class="card-img-top" alt="Modernage School & College"/>
