@@ -51,7 +51,7 @@ const mystyle={
 <br />
 <p style={{marginLeft:'10vw'}}>New around here? <Link to="/signUp"> <button type="button" class="btn btn-info">Sign Up</button></Link></p>
 
-<br />
+
 
  <p style={{marginLeft:'12vw'}}> <Link>Forgot password?</Link></p>
   </form> 

@@ -17,7 +17,7 @@ function Nav() {
 </button></Link>
 
 
-  <form class="d-flex" style={{width:'40vw',marginLeft:'25vw',marginTop:'-2vw'}}>
+  <form class="d-flex" style={{width:'40vw',marginLeft:'25vw',marginTop:'-3vw'}}>
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
         <button class="btn btn-outline-success" type="submit">Search</button>
       </form>
