@@ -9,25 +9,25 @@ function Armyschool() {
   <div class="carousel-inner" style={{width:'100vw',height:'55vw',marginTop:'2vw'}}>
 
     <div class="carousel-item active">
-      <img src="Army1.jpg" class="d-block w-100" alt=""/>
+      <img src="Army1.jpg" class="d-block w-95" alt=""/>
     </div>
     <div class="carousel-item">
-      <img src="Army2.jpg" class="d-block w-100" alt="..."/>
+      <img src="Army2.jpg" class="d-block w-95" alt="..."/>
     </div>
     <div class="carousel-item">
-      <img src="Army3.jpg" class="d-block w-100" alt="..."/>
+      <img src="Army3.jpg" class="d-block w-95" alt="..."/>
     </div>
     <div class="carousel-item active">
-      <img src="Army4.jpg" class="d-block w-100" alt=""/>
+      <img src="Army4.jpg" class="d-block w-95" alt=""/>
     </div>
     <div class="carousel-item">
-      <img src="Army5.jpg" class="d-block w-100" alt="..."/>
+      <img src="Army5.jpg" class="d-block w-95" alt="..."/>
     </div>
     <div class="carousel-item">
-      <img src="Army6.jpg" class="d-block w-100" alt="..."/>
+      <img src="Army6.jpg" class="d-block w-95" alt="..."/>
     </div>
     <div class="carousel-item">
-      <img src="Army7.jpg" class="d-block w-100" alt="..."/>
+      <img src="Army7.jpg" class="d-block w-95" alt="..."/>
     </div>
 
 
