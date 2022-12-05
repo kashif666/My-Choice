@@ -1,25 +1,19 @@
  import { Link } from "react-router-dom";
-function Nav() {
+function Navbar() {
 
- const mystyle =
-{
-  backgroundColor: "lightBlue",
-  width:"100vw",
-  height:"7vw"
 
- };
 
     return ( 
-    <div style={mystyle}>
+    <div class="mystyle">
 <Link to="/">
-<button style={{marginTop:'2vw',marginLeft:'2vw'}} type="button" class="btn btn-outline-success">
- Home
+<button style={{marginTop:'2vw',marginLeft:'2vw'}} type="button" class="btn btn-outline-dark">
+ <b>Home</b>
 </button></Link>
 
 
-  <form class="d-flex" style={{width:'40vw',marginLeft:'25vw',marginTop:'-3vw'}}>
+  <form class="d-flex" style={{width:'40vw',marginLeft:'25vw',marginTop:'-2.5vw'}}>
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-        <button class="btn btn-outline-success" type="submit">Search</button>
+        <button class="btn btn-outline-dark" type="submit"><b>Search</b></button>
       </form>
 
      
@@ -27,15 +21,19 @@ function Nav() {
 <div class="d-grid gap-2 d-md-flex justify-content-md-end" style={{marginTop:'-2.5vw',marginRight:'4vw'}}>
 
 <Link to="/login">
-  <button class="btn btn-outline-success" type="button"> Login </button>
+  <button class="btn btn-outline-dark" type="button"> <b>Login</b> </button>
   </Link>
 
 <Link to="/AddInstitute">
-  <button  class="btn btn-outline-success" type="button">Add institute</button>
+  <button  class="btn btn-outline-dark" type="button"><b>Add institute</b></button>
   </Link>
 
-<Link to={"/Help"}>
-  <button  class="btn btn-outline-success" type="button">Help</button>
+<Link to={"/Login"}>
+  <button  class="btn btn-outline-dark" type="button"><b>Admin</b></button>
+  </Link>
+
+  <Link to={"/Help"}>
+  <button  class="btn btn-outline-dark" type="button"><b>Help</b></button>
   </Link>
 
 
@@ -49,4 +47,4 @@ function Nav() {
 );
 }
 
-export default Nav;
+export default Navbar;
