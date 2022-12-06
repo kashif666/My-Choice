@@ -9,9 +9,10 @@ const mystyle1 =
     height: "60vw",
     border:"2px solid black",
     marginLeft: "25vw",
-    backgroundColor: "lightblue" ,
+    backgroundColor: "rgb(79, 189, 186)" ,
     borderRadius: "2vw",
     marginTop: "4vw",
+    marginBottom:"10vw"
 
 }
 
@@ -22,6 +23,8 @@ return (
 <div>
         
 <form class="row g-10" style={mystyle1}>
+
+<h2 style={{marginLeft:"14vw"}}>Add Your Institute</h2>
 
   <div class="col-md-6">
     <label for="inputEmail4" class="form-label">Email</label>
@@ -91,7 +94,7 @@ return (
   </div>
 
   <div class="col-12">
-    <button type="submit" class="btn btn-success">Sign in</button>
+    <button type="submit" class="btn btn-outline-dark">Sign in</button>
   </div>
 </form>
 

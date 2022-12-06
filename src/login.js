@@ -14,7 +14,7 @@ const mystyle={
 
 <div>
   <div style={mystyle}>
-  <div style={{width:'30vw',height:'30vw',margin:"auto",marginTop:'10vw',backgroundColor:"lightblue",border:'2px solid gray'}}>
+  <div style={{width:'30vw',height:'30vw',margin:"auto",marginTop:'5vw',backgroundColor:"rgb(79, 189, 186)",border:'2px solid black',borderRadius:'35px'}}>
 
 
 <form style={{marginTop:'4vw'}}>
@@ -45,7 +45,9 @@ const mystyle={
     </div>
   </div>
   
-  <button type="submit" class="btn btn-success" style={{marginLeft:'14vw'}}>Sign in</button>
+  <Link to="/AdminView">
+  <button type="submit" class="btn btn-dark" style={{marginLeft:'14vw'}}>Sign in</button>
+  </Link>
 
  <br />
 <br />
