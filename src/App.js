@@ -24,16 +24,17 @@ import Abbottabad from "./Abbottabad";
 import Abbott from "./Abbott";
 import Hillcrest from "./Hillcrest";
 import IIUI from "./IIUI";
-// import Apply from "./Apply";
+import Apply from "./Apply";
 // import AllSchool from "./AllSchool";
-// import AdminView from "./AdminView";
+import DashboardContent from "./AdminView";
+// import Nav from "./Nav";
 
 function App() {
   return (
 
 <div>
     <Navbar />
-    
+    {/* <Nav/> */}
     <Routes>
 
       <Route path="/" element={<HomePage/>}/>;
@@ -59,9 +60,9 @@ function App() {
       <Route path="/Abbott" element={<Abbott/>}/>;
       <Route path="/Hillcrest" element={<Hillcrest/>}/>;
       <Route path="/IIUI" element={<IIUI/>}/>;
-      {/* <Route path="/Apply" element={<Apply/>}/>;
-      <Route path="/AdminView" element={<AdminView/>}/>;
-      <Route path="/AllSchool" element={<AllSchool/>}/>; */}
+      <Route path="/Apply" element={<Apply/>}/>;
+      <Route path="/AdminView" element={<DashboardContent/>}/>;
+      {/* <Route path="/AllSchool" element={<AllSchool/>}/>; */}
 
     </Routes>
     <Footer />

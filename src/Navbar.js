@@ -6,7 +6,7 @@ function Navbar() {
     return ( 
     <div class="mystyle">
 <Link to="/">
-<button style={{marginTop:'2vw',marginLeft:'2vw'}} type="button" class="btn btn-outline-dark">
+<button style={{marginTop:'2vw',marginLeft:'4vw'}} type="button" class="btn btn-outline-dark">
  <b>Home</b>
 </button></Link>
 
